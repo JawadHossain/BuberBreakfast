@@ -16,6 +16,15 @@ dotnet new webapi -o BuberBreakfast
 dotnet sln add ./BuberBreakfast.Contracts ./BuberBreakfast Or dotnet sln add (ls -r \*_/_.csproj) to recursively add all projects
 ```
 
+```
+dotnet add ./BuberBreakfast reference ./BuberBreakfast.Contracts
+```
+
+```
+dotnet build
+dotnet run --project ./BuberBreakfast
+```
+
 ### This is the source code of the [CRUD REST API from scratch using .NET 6 tutorial](https://youtu.be/PmDJIooZjBE)
 
 </div>
